@@ -16,6 +16,7 @@ const TodoForm = () => {
       item: todo,
       completed: false,
       id: Date.now(),
+      completeBy: "3 Hours",
     };
     dispatch({ type: "ADD-TODO", payload: newTodo });
   };
@@ -41,6 +42,9 @@ const TodoForm = () => {
         <button onClick={handleSubmit}>Add</button>
         <button onClick={handleClear}>Delete</button>
       </form>
+      <div className="todoInfo">
+        <p>{state.length} item(s) left</p>
+      </div>
       <Todo id={state.id} todo={todo} dispatch={dispatch} state={state} />
     </div>
   );

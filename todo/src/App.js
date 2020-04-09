@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="todoList">
       <h1 className="title">React Todo List</h1>
       <TodoForm />
     </div>
