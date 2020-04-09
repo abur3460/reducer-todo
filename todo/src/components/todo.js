@@ -18,7 +18,12 @@ const Todo = (props) => {
               key={todo.id}
             >
               <p>{todo.item}</p>
-              <p className="dueDate">Due by: {todo.completeBy}</p>
+              // cheating way of hiding icon until completed
+              <i
+                className={`fa fa-check-circle${
+                  todo.completed ? "" : "completed"
+                }`}
+              ></i>
             </div>
           </div>
         );

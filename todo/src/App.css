@@ -16,17 +16,35 @@
   color: black;
   font-size: 2.5rem;
   background: #ffc;
+  transition: all 0.2s ease-in-out;
   border-bottom: 10px black;
+  margin: 2%;
 }
 
 .todocompleted {
   align-self: center;
   height: 18rem;
+  transition: all 0.2s ease-in-out;
   width: 18rem;
   color: black;
   font-size: 2.5rem;
   text-decoration: line-through;
   background: #ffc;
+  margin: 2%;
+}
+
+.todo:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+  position: relative;
+  z-index: 5;
+}
+
+.todocompleted:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+  position: relative;
+  z-index: 5;
 }
 
 .todoInfo {

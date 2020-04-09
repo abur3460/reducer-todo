@@ -16,7 +16,6 @@ const TodoForm = () => {
       item: todo,
       completed: false,
       id: Date.now(),
-      completeBy: "3 Hours",
     };
     dispatch({ type: "ADD-TODO", payload: newTodo });
   };
