@@ -23,6 +23,7 @@ const Todo = (props) => {
                 className={`fa fa-check-circle${
                   todo.completed ? "" : "completed"
                 }`}
+                size="3rem"
               ></i>
             </div>
           </div>

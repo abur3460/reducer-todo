@@ -2,35 +2,35 @@
   text-align: center;
 }
 
+.todoArea i {
+  font-size: 3.5rem;
+}
+
 .todoArea {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .todo {
-  align-self: center;
   height: 18rem;
   width: 18rem;
   color: black;
   font-size: 2.5rem;
   background: #ffc;
   transition: all 0.2s ease-in-out;
-  border-bottom: 10px black;
-  margin: 2%;
+  margin: 20px;
 }
 
 .todocompleted {
-  align-self: center;
-  height: 18rem;
   transition: all 0.2s ease-in-out;
+  height: 18rem;
   width: 18rem;
   color: black;
   font-size: 2.5rem;
   text-decoration: line-through;
   background: #ffc;
-  margin: 2%;
+  margin: 20px;
 }
 
 .todo:hover {
