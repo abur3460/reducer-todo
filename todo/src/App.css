@@ -1,31 +1,23 @@
 .App {
   text-align: center;
-
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #09d3ac;
 }
 
-.completed {
+.todocompleted {
   text-decoration: line-through;
-  color: rgb(19, 11, 11);
   font-size: 2rem;
+  width: 10rem;
+  height: 15rem;
+  font-size: 2rem;
+  margin: 2%;
+  background: #4bafb8;
 }
 
 .form {
@@ -37,7 +29,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .todo {
@@ -46,7 +37,6 @@
   font-size: 2rem;
   margin: 2%;
   background: #4bafb8;
-  ;
 }
 
 button {
@@ -65,4 +55,8 @@ button:hover {
   border: 2px solid rgba(121, 120, 120, 0.5);
   border-radius: 5px;
   cursor: pointer;
+}
+
+.title {
+  color: white;
 }

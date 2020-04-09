@@ -11,7 +11,7 @@ const Todo = (props) => {
         <div className="todoArea">
             {props.state.map(todo => {
                 return (
-                    <div className={`todo${todo.completed ? " completed" : ""}`} onClick={() => handleToggle(todo.id)} key={todo.id}>
+                    <div className={`todo${todo.completed ? "completed" : ""}`} onClick={() => handleToggle(todo.id)} key={todo.id}>
                         <p>{todo.item}</p>
                     </div>
                 )
